@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings>
+    <settings defaultResolver="chain"/>
+    <resolvers>
+        <chain name="chain">
+            <ibiblio name="central" m2compatible="true"/>
+            <ibiblio name="spring-release"  root="http://repository.springsource.com/maven/bundles/release" m2compatible="true"/>
+            <ibiblio name="spring-external" root="http://repository.springsource.com/maven/bundles/external" m2compatible="true"/>
+        </chain>
+    </resolvers>
+</ivysettings>
