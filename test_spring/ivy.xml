@@ -25,11 +25,17 @@
         status="integration">
 	</info>
 	<configurations>
-        <conf name="runtime" description="runtime configuration"/>
+        <conf name="runtime" description="runtime configuration" />
+        <conf name="compile-only" description="Jars already included in the application server" />
+        <conf name="test" description="test" />
     </configurations>
 	<dependencies>
-        <dependency org="commons-lang" name="commons-lang" rev="latest.release"/>
-        <dependency org="commons-logging" name="commons-logging" rev="latest.release"/>
+        <dependency org="commons-lang" name="commons-lang" rev="latest.release" conf="runtime->default"/>
+        <dependency org="commons-logging" name="commons-logging" rev="latest.release" conf="runtime->default"/>
         <dependency org="org.springframework" name="org.springframework.web.servlet" rev="3.0.0.RELEASE" conf="runtime->default"/>
+        <dependency org="junit" name="junit" rev="4.+" conf="test->default"/>
+		<dependency org="javax.servlet" name="servlet-api" rev="2.5" conf="compile-only->default"/>
+		<dependency org="javax.servlet" name="jstl" rev="1.2" conf="runtime->default"/>
+		<dependency org="taglibs" name="standard" rev="1.1.2" conf="runtime->default"/>
     </dependencies>
 </ivy-module>
