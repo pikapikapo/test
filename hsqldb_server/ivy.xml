@@ -28,6 +28,6 @@
         <conf name="runtime" description="runtime configuration" />
     </configurations>
 	<dependencies>
-		<dependency org="org.hsqldb" name="hsqldb" rev="latest.release" conf="runtime->default"/>
+		<dependency org="org.hsqldb" name="hsqldb" rev="1.8+" conf="runtime->default"/>
     </dependencies>
 </ivy-module>

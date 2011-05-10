@@ -11,7 +11,7 @@
 <listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;&#13;&#10;"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="true"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.hsqldb.server.Server"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.hsqldb.util.ScriptTool"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-database test"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hsqldb_server"/>
 <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:hsqldb_server/dbs/test}"/>
